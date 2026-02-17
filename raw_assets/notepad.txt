@@ -1,0 +1,19 @@
+to import muki.bbmodel into unreal engine:
+
+- open in blockbench, then export to .fbx format
+- upload .fbx + texture.png into unreal engine
+- set uniform scale to 100
+- set combine meshes to true
+- set force all mesh as type to skeletal mesh
+
+the texture errors out when uploading
+- re-upload texture.png
+- open texture1 material instance
+- check "global texture parameter values"
+- enable "diffusecolormap"
+- drag texture image to replace defaulttexture
+
+the character model is very blurry
+- double-click the texture asset
+- filter -> change default to nearest
+- compression settings -> uncompressed rgba8
