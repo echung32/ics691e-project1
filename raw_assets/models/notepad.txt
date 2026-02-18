@@ -2,7 +2,7 @@ to import muki.bbmodel into unreal engine:
 
 - open in blockbench, then export to .fbx format
 - upload .fbx + texture.png into unreal engine
-- set uniform scale to 100
+- set uniform scale to 5 (may need to adjust this)
 - set combine meshes to true
 - set force all mesh as type to skeletal mesh
 
